@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-top-stocks',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './top-stocks.html',
   styleUrl: './top-stocks.css'
 })
-export class TopStocks {
-
+export class TopStocksComponent {
+  // Component logic will be added here
 }
